@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.CrossCutting
+namespace Application.ServiceClients.Interfaces
 {
     public class Class1
     {
