@@ -1,9 +1,9 @@
 ﻿using Application.Messages.Catalog.Response;
 using System.Threading.Tasks;
 
-namespace Application.ServiceClients.Interfaces
+namespace Application.Services.Interfaces
 {
-    public interface ICatalogServiceClient
+    public interface ICatalogApplicationService
     {
         Task<ProductResponseMessage> GetProductByIdAsync(long id);
     }

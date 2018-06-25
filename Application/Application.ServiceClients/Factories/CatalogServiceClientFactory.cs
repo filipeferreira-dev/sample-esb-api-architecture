@@ -4,7 +4,7 @@
     {
         public static CatalogServiceClient Create()
         {
-            return new CatalogServiceClient("teste");
+            return new CatalogServiceClient("http://localhost:63420/");
         }
     }
 }

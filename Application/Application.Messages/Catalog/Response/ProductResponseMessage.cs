@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 
-namespace Application.Messages.Catalog.Request
+namespace Application.Messages.Catalog.Response
 {
     public class ProductResponseMessage : HttpResponseMessage
     {

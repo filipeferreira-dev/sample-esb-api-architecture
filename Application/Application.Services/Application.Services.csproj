@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Messages\Application.Messages.csproj" />
+    <ProjectReference Include="..\Application.ServiceClients\Application.ServiceClients.csproj" />
+  </ItemGroup>
+
 </Project>

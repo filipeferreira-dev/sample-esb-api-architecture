@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Services", "App
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{37713FBF-9FEE-4B0A-AF5A-21B40CC3898E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Messages", "Application\Application.Messages\Application.Messages.csproj", "{C7876E7D-4E81-4566-9B26-EEA9ED57DBC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Messages", "Application\Application.Messages\Application.Messages.csproj", "{C7876E7D-4E81-4566-9B26-EEA9ED57DBC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.ServiceClients", "Application\Application.ServiceClients\Application.ServiceClients.csproj", "{9DFAD8BB-9FD9-4E32-A59D-DF1BEB08F19D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.ServiceClients", "Application\Application.ServiceClients\Application.ServiceClients.csproj", "{9DFAD8BB-9FD9-4E32-A59D-DF1BEB08F19D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itens", "Solution Itens", "{489CD646-22C5-47F7-84E2-939BD1A47BBC}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,7 +24,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itens", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{5D8287F3-B4F8-40DB-9E27-9EF655219EEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLibrary", "CustomLibrary\CustomLibrary.csproj", "{55C03AB0-FD81-48C8-B011-6E94253F574B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomLibrary", "CustomLibrary\CustomLibrary.csproj", "{55C03AB0-FD81-48C8-B011-6E94253F574B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.CrossCutting", "Infrastructure\Infrastructure.CrossCutting\Infrastructure.CrossCutting.csproj", "{CDB4F806-66D0-4DED-8FCD-3E1F1171531E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +54,10 @@ Global
 		{55C03AB0-FD81-48C8-B011-6E94253F574B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55C03AB0-FD81-48C8-B011-6E94253F574B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55C03AB0-FD81-48C8-B011-6E94253F574B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB4F806-66D0-4DED-8FCD-3E1F1171531E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB4F806-66D0-4DED-8FCD-3E1F1171531E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB4F806-66D0-4DED-8FCD-3E1F1171531E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB4F806-66D0-4DED-8FCD-3E1F1171531E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{C7876E7D-4E81-4566-9B26-EEA9ED57DBC3} = {9880C781-E1C5-4904-99D2-8DA018199B7E}
 		{9DFAD8BB-9FD9-4E32-A59D-DF1BEB08F19D} = {9880C781-E1C5-4904-99D2-8DA018199B7E}
 		{55C03AB0-FD81-48C8-B011-6E94253F574B} = {5D8287F3-B4F8-40DB-9E27-9EF655219EEC}
+		{CDB4F806-66D0-4DED-8FCD-3E1F1171531E} = {37713FBF-9FEE-4B0A-AF5A-21B40CC3898E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4574CE48-A403-4F55-A192-245BCA7A4395}

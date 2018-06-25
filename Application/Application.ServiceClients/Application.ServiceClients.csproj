@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\CustomLibrary\CustomLibrary.csproj" />
     <ProjectReference Include="..\Application.Messages\Application.Messages.csproj" />
   </ItemGroup>
 
